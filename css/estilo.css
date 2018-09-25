@@ -1,0 +1,308 @@
+.titulo {
+	 text-align: center;
+	 text-decoration: none;
+	 font-family: 'Indie Flower', cursive;
+	 color: white; 
+	 border: solid 3px black;
+	 border-radius: 10px  ;
+	 background-image: linear-gradient(red, yellow, green);
+	
+
+
+}
+
+img{
+	width: 40px;
+    height: 40px;
+    display: block; 
+}
+
+.menu {
+  width: 100%;
+  text-align:right;
+  position: absolute;
+  right: 20px;
+
+  
+}
+
+.menu ul li {
+  list-style-type: none; 
+  margin-bottom: 5px;
+}
+
+.menu ul li a {
+
+  border: solid 1px blue;
+  border-radius: 3px;
+  background-color: #D7BDE2;
+
+
+}
+
+.link{
+
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	color: black;
+   
+}
+
+
+
+.container{
+  width: 100%; 
+  float: left;
+  text-align:right;
+
+
+}
+
+.container ul li {
+	list-style-type: none; 
+    margin-bottom: 10px;
+}
+
+.container ul li a{
+  border: solid 1px blue;
+  border-radius: 3px;
+  margin-right: 5px;
+
+
+}
+
+
+  .diseno {
+  	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	color: black; 
+	border:solid 4px red;
+	border-radius: 5px;
+	padding-top: 40px;
+	border: solid 3px;
+	border-radius: 30px;
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+	margin-top: 50px;
+  }
+
+  
+.nombre{
+
+
+	margin-top: 50px;
+	border:solid 4px red;
+	border-radius: 5px;
+	padding-top: 5px;
+    border: solid 3px;
+	border-radius: 50px;
+	background-image: linear-gradient(to right, red,orange,yellow,green,blue,violet);
+	text-align: center;
+   
+}
+
+
+
+table {
+   width: 50%;
+   border: 1px solid #000;
+
+}
+th, td {
+   width: 25%;
+   text-align: left;
+   vertical-align: top;
+   border: 1px solid #000;
+   border-collapse: collapse;
+   font-size: 15px;
+   font-family: cursive,"comic sans";
+   border-color: red;
+   color:black;
+
+}
+
+.hobbies{
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	color: black; 
+	margin-right: 300px;
+	margin-left: 300px;
+	padding-top: 40px;
+}
+.intereses{
+	text-decoration: none;
+	font-family: 'Indie Flower', cursive;
+	color: black; 
+	margin-right: 300px;
+	margin-left: 300px;
+	padding-top: 40px;
+
+}
+
+.ubicacion{
+	width: 100%;
+    float: left;
+    text-align:right;
+}
+
+.ubicacion ul li {
+	 list-style-type: none; 
+     margin-bottom: 10px;
+
+}
+
+.ubicacion ul li a {
+	  border: solid 1px blue;
+      border-radius: 3px;
+      margin-right: 5px
+}
+
+.mapa{
+
+	margin-left:300px;
+	
+
+}
+
+.cuerpo{
+		min-height: 200px;
+		min-width: 150px;
+		box-sizing: border-box;
+}
+.cuerpo div {		
+		flex-flow: row wrap;
+		width: 100%;
+}
+
+.titulo, .link, .menu, .diseno, .nombre{
+	width: 100%;
+}
+
+@media(min-width: 600px){
+	.titulo, .link, .menu,.diseno .nombre{
+		width: 50%;
+	}	
+}
+
+@media(min-width: 800px){
+	.titulo{
+		width: 60%;
+	}
+	
+	.link{
+		width: 40%;
+		text-align:right;
+	}
+
+	.menu, .diseno, .nombre{
+		width: 33.3%;
+	}	
+
+	.cuerpo{
+		width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+.nombre div{
+	text-align: center;
+}
+
+h1 {
+	 text-decoration: none;
+	 font-family: 'Indie Flower', cursive;
+	 color: white; 
+	 border: solid 3px black;
+	 border-radius: 10px  ;
+	 background-image: linear-gradient(red, yellow, green);
+
+}
+ .pagina{
+ 	margin-left:500px;
+ }
+
+
+
+.social {
+position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+left: 0; /* Establecemos la barra en la izquierda */
+top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+.social ul {
+list-style: none;
+}
+
+.social ul li a {
+display: inline-block;
+color:#fff;
+background: #000;
+padding: 10px 15px;
+text-decoration: none;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+
+.social ul li .fa-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .fa-twitter {background: #00abf0;}
+.social ul li .fa-youtube {background: #FF0000;}
+
+.social ul li a:hover {
+background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+
+.social {
+position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+left: 0; /* Establecemos la barra en la izquierda */
+top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+.social ul {
+list-style: none;
+}
+ 
+.social ul li a {
+display: inline-block;
+color:#fff;
+background: #000;
+padding: 10px 15px;
+text-decoration: none;
+-webkit-transition:all 500ms ease;
+-o-transition:all 500ms ease;
+transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+}
+ 
+.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-googleplus {background: #d95232;}
+.social ul li .icon-pinterest {background: #ae181f;}
+.social ul li .icon-mail {background: #666666;}
+ 
+.social ul li a:hover {
+background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+}
+.social{
+	border-radius:100px;
+}
+.icon-size {
+	height: 15px;
+	width: 15px ;
+	border-radius:  55px 55px 55px 55px
+
+
+
+
+}
+
+.content_name{
+	padding: 10px 0;
+	width: 100%;
+}
+
+.content_name .nombre{
+	margin: auto 0;
+}
